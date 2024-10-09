@@ -1,5 +1,5 @@
-FROM wordpress:6.5.3-php8.3-apache
-LABEL org.opencontainers.image.authors="soulteary@gmail.com"
+FROM wordpress:6.6.2-php8.3-apache
+LABEL org.opencontainers.image.authors="websitegardener@gmail.com"
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ENV WORDPRESS_PREPARE_DIR=/usr/src/wordpress
